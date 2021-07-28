@@ -307,3 +307,47 @@
   margin: 20px;
   width: 140px;
 }
+
+/* Estilos del footer */
+
+.footer {
+  align-items: center;
+  background-color: #232323;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.footer-elements-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.footer-elements-container > * {
+  margin: 20px;
+  width: 220px;
+}
+
+.email {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media-icons-list {
+  display: flex;
+}
+
+.social-media-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.credits {
+  color: #8e8e8e;
+}
