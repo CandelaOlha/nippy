@@ -249,3 +249,39 @@
 .number {
   font-size: 36px;
 }
+
+/* Estilos de la sección de contacto */
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-replacement {
+  background-color: #f4f4f4;
+  width: 50%;
+}
+
+.contact-text-container {
+  padding: 160px 80px;
+  width: 50%;
+}
+
+.contact-form {
+  padding-top: 40px;
+}
+
+.form-control {
+  border: 1px solid #1d1d1d;
+  border-radius: 100px 0 0 100px;
+  padding: 16px 32px;
+}
+
+.submit-button {
+  background-color: #1006ff;
+  border: 1px solid #1006ff;
+  border-radius: 0 100px 100px 0;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+}
