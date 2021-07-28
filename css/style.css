@@ -222,3 +222,30 @@
   position: relative;
   top: 190px;
 }
+
+/* Estilos de la sección de "Nippy en números" */
+
+.numbers-section {
+  align-items: center;
+  background-color: #1d1d1d;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px;
+  text-align: center;
+}
+
+.number-container {
+  margin: 20px 10px;
+}
+
+.number-heading {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 36px;
+}
