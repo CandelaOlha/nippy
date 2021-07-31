@@ -362,8 +362,13 @@
 }
 
 .social-media-item {
+  font-size: 18px;
   list-style-type: none;
   margin: 10px;
+}
+
+.social-media-link {
+  color: #fff;
 }
 
 .credits {
