@@ -342,7 +342,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 80px;
   width: 100%;
 }
