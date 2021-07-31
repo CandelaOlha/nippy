@@ -80,13 +80,13 @@
   text-decoration: none;
 }
 
-/* cta en hover */
+/* CTA en hover */
 
 .cta:hover {
   background-color: #3830ff;
 }
 
-/* cta en focus */
+/* CTA en focus */
 
 .cta:focus {
   background-color: #0b03d8;
@@ -152,13 +152,13 @@
   text-decoration: none;
 }
 
-/* cta en hover */
+/* CTA en hover */
 
 .products-cta:hover {
   color: #1006ff;
 }
 
-/* cta en focus */
+/* CTA en focus */
 
 .products-cta:focus {
   box-shadow: 0px 0px 6px #1006ff;
@@ -269,6 +269,7 @@
 }
 
 .contact-form {
+  display: flex;
   padding-top: 40px;
 }
 
@@ -276,6 +277,7 @@
   border: 1px solid #1d1d1d;
   border-radius: 100px 0 0 100px;
   padding: 16px 32px;
+  width: 70%;
 }
 
 .submit-button {
@@ -283,8 +285,23 @@
   border: 1px solid #1006ff;
   border-radius: 0 100px 100px 0;
   color: #fff;
+  cursor: pointer;
   letter-spacing: 1px;
   padding: 16px 32px;
+  width: 30%;
+}
+
+/* Submit button en hover */
+
+.submit-button:hover {
+  background-color: #3830ff;
+}
+
+/* Submit button en focus */
+
+.submit-button:focus {
+  background-color: #0b03d8;
+  box-shadow: 0px 0px 6px #1006ff;
 }
 
 /* Estilos de la sección de marcas */
