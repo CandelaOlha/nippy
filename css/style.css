@@ -413,7 +413,7 @@ html {
 }
 
 .footer-elements-container {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -427,9 +427,20 @@ html {
   width: 220px;
 }
 
-.email {
+.contact-option-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.contact-option-link {
   color: #fff;
   text-decoration: none;
+}
+
+/* Opciones de contacto en hover */
+
+.contact-option-link:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .social-media-icons-list {
