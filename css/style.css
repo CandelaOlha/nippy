@@ -56,8 +56,8 @@
 
 .menu-link {
   color: #333;
-  text-decoration: none;
   padding: 10px;
+  text-decoration: none;
 }
 
 /* Links del menu en hover */
@@ -171,14 +171,14 @@
 }
 
 .about-image-1 {
-  top: 50px;
   position: relative;
+  top: 50px;
 }
 
 .about-image-2 {
-  position: relative;
-  left: 100px;
   bottom: 50px;
+  left: 100px;
+  position: relative;
 }
 
 /* Estilos de la sección de productos */
@@ -208,8 +208,8 @@
 }
 
 .products-cta {
-  color: #1d1d1d;
   border-radius: 100px;
+  color: #1d1d1d;
   font-weight: 500;
   letter-spacing: 1px;
   padding: 16px 16px;
@@ -236,8 +236,8 @@
 
 .featured-product {
   background-color: #f4f4f4;
-  margin: 10px 0;
   height: 560px;
+  margin: 10px 0;
   width: 50%;
 }
 
@@ -438,4 +438,17 @@
 
 .credits {
   color: #8e8e8e;
+}
+
+/* Estilos para tablets y celulares */
+
+/* Se oculta el menú de navegación y la frase introductoria se achica */
+
+@media screen and (max-width: 740px) {
+  .menu {
+    display: none;
+  }
+  .introduction-phrase {
+    font-size: 60px;
+  }
 }
