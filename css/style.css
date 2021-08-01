@@ -78,7 +78,7 @@
 
 .introduction-section {
   align-items: center;
-  background-image: url(/images/feathers.jpg);
+  background-image: url(../images/feathers.jpg);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
