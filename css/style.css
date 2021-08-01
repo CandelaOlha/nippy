@@ -495,7 +495,7 @@ html {
   .featured-product {
     width: 100%;
   }
-  .other-products {
+  .secondary-product-container {
     width: 100%;
   }
 }
@@ -503,7 +503,7 @@ html {
 /* Los productos secundarios pasan a ocupar todo el ancho */
 
 @media screen and (max-width: 480px) {
-  .product {
+  .secondary-product {
     margin: 0 0 10px 0;
     width: 100%;
   }
