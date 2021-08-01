@@ -17,4 +17,4 @@ It is a typical home page of an online store, where you can find a brief descrip
 - [Google Fonts](https://fonts.google.com/) for typography
 - [Font awesome](https://fontawesome.com/) for icons
 
-You can see the project following this link: [https://candelaolha.github.io/nippy/] (https://candelaolha.github.io/nippy/)
+You can see the project following this link: [https://candelaolha.github.io/nippy/](https://candelaolha.github.io/nippy/)
