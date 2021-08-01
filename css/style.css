@@ -163,6 +163,10 @@
 }
 
 .about-image-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
 }
 
@@ -173,7 +177,7 @@
 
 .about-image-2 {
   position: relative;
-  left: 130px;
+  left: 100px;
   bottom: 50px;
 }
 
