@@ -480,3 +480,23 @@
     display: none;
   }
 }
+
+/* Los productos pasan a ocupar todo el ancho */
+
+@media screen and (max-width: 960px) {
+  .featured-product {
+    width: 100%;
+  }
+  .other-products {
+    width: 100%;
+  }
+}
+
+/* Los productos secundarios pasan a ocupar todo el ancho */
+
+@media screen and (max-width: 480px) {
+  .product {
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+}
