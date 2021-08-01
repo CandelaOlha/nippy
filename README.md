@@ -13,7 +13,7 @@ It is a typical home page of an online store, where you can find a brief descrip
 
 ## Design resources
 
-- [Zeplin] (https://zeplin.io/) for design
+- [Zeplin](https://zeplin.io/) for design
 - [Google Fonts](https://fonts.google.com/) for typography
 - [Font awesome](https://fontawesome.com/) for icons
 
