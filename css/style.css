@@ -171,14 +171,18 @@
 }
 
 .about-image-1 {
+  max-width: 371px;
   position: relative;
   top: 50px;
+  width: 100%;
 }
 
 .about-image-2 {
   bottom: 50px;
   left: 100px;
+  max-width: 371px;
   position: relative;
+  width: 100%;
 }
 
 /* Estilos de la sección de productos */
@@ -450,5 +454,29 @@
   }
   .introduction-phrase {
     font-size: 60px;
+  }
+}
+
+/* Los elementos de la sección de quiénes somos pasan a ocupar todo el ancho */
+
+@media screen and (max-width: 820px) {
+  .about-text-container {
+    padding-right: 0;
+    width: 100%;
+  }
+  .about-image-container {
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+/* Se oculta la segunda imagen de la sección de quiénes somos */
+
+@media screen and (max-width: 510px) {
+  .about-image-container {
+    align-items: center;
+  }
+  .about-image-2 {
+    display: none;
   }
 }
