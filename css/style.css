@@ -354,6 +354,8 @@
   border-radius: 0 100px 100px 0;
   color: #fff;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
   letter-spacing: 1px;
   padding: 16px 32px;
   width: 30%;
@@ -498,5 +500,25 @@
   .product {
     margin: 0 0 10px 0;
     width: 100%;
+  }
+}
+
+/* Los elementos de la sección de contacto pasan a ocupar todo el ancho */
+
+@media screen and (max-width: 790px) {
+  .image-replacement {
+    height: 400px;
+    width: 100%;
+  }
+  .contact-text-container {
+    width: 100%;
+  }
+}
+
+/* Achico el padding en el contenedor de texto de la sección de contacto */
+
+@media screen and (max-width: 480px) {
+  .contact-text-container {
+    padding: 100px 20px;
   }
 }
