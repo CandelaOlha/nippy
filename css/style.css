@@ -45,6 +45,8 @@ html {
   justify-content: space-between;
   max-width: 1200px;
   padding: 20px;
+
+  /* innecesario, es el estilo por defecto */
   width: 100%;
 }
 
@@ -54,6 +56,8 @@ html {
 }
 
 .menu-item {
+  /* debes repetir esto tres veces a lo largo de tu web: 
+  quiza deba ser un estilo general para todos los `li` */
   list-style-type: none;
   margin: 0 10px;
 }
@@ -61,6 +65,8 @@ html {
 .menu-link {
   color: #333;
   padding: 10px;
+
+  /* para repetirlo menos, deberia ser un estilo general para todos los `a` */
   text-decoration: none;
 }
 
@@ -158,6 +164,7 @@ html {
   justify-content: center;
   max-width: 1200px;
   padding: 0 20px;
+  /* innecesario */
   width: 100%;
 }
 
@@ -178,6 +185,7 @@ html {
   max-width: 371px;
   position: relative;
   top: 50px;
+  /* innecesario, ya que la imagen no esta dentro de un div */
   width: 100%;
 }
 
@@ -186,6 +194,7 @@ html {
   left: 100px;
   max-width: 371px;
   position: relative;
+  /* innecesario, ya que la imagen no esta dentro de un div */
   width: 100%;
 }
 
@@ -203,6 +212,7 @@ html {
   flex-direction: column;
   max-width: 1200px;
   padding: 0 20px;
+  /* innecesario */
   width: 100%;
 }
 
@@ -212,6 +222,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
+  /* innecesario */
   width: 100%;
 }
 
@@ -238,7 +249,9 @@ html {
 
 .product-gallery {
   display: flex;
+  /* perfecto este wrap para resolver de manera sencilla un diseño complejo */
   flex-wrap: wrap;
+  /* innecesario */
   width: 100%;
 }
 
@@ -410,6 +423,7 @@ html {
   justify-content: space-between;
   margin-bottom: 80px;
   max-width: 1200px;
+  /* innecesario */
   width: 100%;
 }
 
