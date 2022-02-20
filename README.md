@@ -8,8 +8,8 @@ It is a typical home page of an online store, where you can find a brief descrip
 
 ## Technologies
 
-- HTML 5
-- CSS 3
+- HTML
+- CSS
 
 ## Design resources
 
